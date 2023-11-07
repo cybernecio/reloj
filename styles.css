@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#clock {
+    background-color: #333;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#timer-label {
+    color: #ff9800;
+}
+
+#time-left {
+    font-size: 36px;
+}
+
+#controls, #lengths {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#controls .clickable, #lengths {
+    width: 48px;
+    height: 48px;
+    background-color: #0074e4;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#lengths {
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 20px;
+}
+
+#start_stop, #reset {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #ff9800;
+    color: #000;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#beep {
+    display: none;
+}
